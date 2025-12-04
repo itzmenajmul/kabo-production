@@ -1,0 +1,83 @@
+/* GOOGLE FONT - Work Sans */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ======================================= */
+/* CSS RESET */
+/* ======================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* COMMON CLASS */
+
+.btn-container{     /*button center*/
+    text-align: center;
+}
+
+.btn {
+  padding: 21px 32px 21px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 1);
+  border: none;
+
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* CHEF SECTION */
+#chef-section {
+  max-width: 1920px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  max-width: 1023px;
+  margin: 0 auto;
+}
+
+#container .subtitle {
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+
+#container .title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+#container .description {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
