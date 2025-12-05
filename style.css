@@ -12,12 +12,14 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  max-width: 1920px;
 }
 
 /* COMMON CLASS */
 
-.btn-container{     /*button center*/
-    text-align: center;
+.btn-container {
+  /*button center*/
+  text-align: center;
 }
 
 .btn {
@@ -36,9 +38,9 @@ body {
 
 /* CHEF SECTION */
 #chef-section {
-  max-width: 1920px;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/hero-bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/hero-bg.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -81,3 +83,100 @@ body {
   opacity: 0.7;
   margin-bottom: 32px;
 }
+
+/* FOOD CARDS SECTION */
+#food-section {
+  max-width: 1320px;
+  margin: 100px auto;
+}
+
+.food-info {
+  max-width: 691px;
+  margin: 0 auto;
+
+}
+
+.food-info .subtitle {
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.food-info .title {
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 64px;
+}
+
+.card {
+  max-width: 424px;
+  text-align: center;
+}
+
+.card img{
+  width: 100%;
+}
+.card .prd-container{
+    margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.card .prd-name {
+  padding: 14px 32px 14px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+
+  color: rgba(16, 16, 16, 1);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.card .title {
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card .subtitle {
+  color: rgba(16, 16, 16, 1);
+
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+
+/*  */
