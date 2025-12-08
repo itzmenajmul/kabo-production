@@ -167,7 +167,7 @@ body {
   text-align: center;
 }
 
-/* commitment section styles */
+/* COMMITMENT SECTION */
 .commitment-container {
   max-width: 1920px;
   margin: 0 auto;
@@ -228,7 +228,57 @@ body {
   font-size: 40px;
 }
 
-/* styles for footer section */
-.footer-container {
-  margin: 100px 0px;
+/* SOCIAL SECTION */
+.social-section-container {
+  margin: 100px auto;
+  max-width: 1920px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("./assets/social-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  max-width: 805px;
+  margin: 0 auto;
+}
+
+.content .section-title {
+  color: rgba(16, 16, 16, 1);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 137px 0px 24px 0px;
+}
+
+.content .section-description {
+  color: rgba(16, 16, 16, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: normal;
+  text-align: center;
+  opacity: 0.6;
+}
+.content .section-subheading {
+  color: rgba(16, 16, 16, 1);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: normal;
+  text-align: center;
+  opacity: 0.7;
+  padding: 78px 0px 62px 0px;
+}
+
+.content .social-icons-container {
+  padding: 0px 0px 136px 0px;
+  text-align: center;
+  font-size: 40px;
 }
